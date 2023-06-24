@@ -1,0 +1,208 @@
+*{
+padding:0; margin:0;
+box-sizing: border-box;
+}
+img{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.slid{
+    
+    width:45%;
+    height: 80vh;
+    border:1px solid red;
+    text-align: center;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    
+}
+.parent{
+    position: relative;
+    width:100%;
+    height:100vh;
+}
+.but{
+    width:100%;
+    height:100%;
+    position: absolute;
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0 .3em;
+
+}
+.but button{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-color: transparent;
+    transition:1s;
+    -webkit-transition:1s;
+    -moz-transition:1s;
+    -ms-transition:1s;
+    -o-transition:1s;
+}
+/*Text*/
+
+.slid-Text{
+    position:relative;
+    width:100%;
+    height:100Vh;
+    border:1px solid blue;
+}
+.parentText{
+    /* right:0; */
+    position: absolute;
+    width:45%;
+    height:70vh;
+    text-align: center;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.icons{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    border: 1px solid rgb(70, 175, 70);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 .3em;
+}
+.icons button{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-color: transparent;
+    transition:1s;
+    -webkit-transition:1s;
+    -moz-transition:1s;
+    -ms-transition:1s;
+    -o-transition:1s;
+}
+h2{
+    position: absolute;
+    bottom:0;
+    padding:.5rem 0 1rem;
+    left:50%;
+    transform:translateX(-50%);
+    -webkit-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    -ms-transform:translateX(-50%);
+    -o-transform:translateX(-50%);
+    background-color: rgba(200,200,200,.7);
+    width: 100%;
+    height:fit-content;
+    transition: 1s;
+}
+
+
+/*slide Text_bolts*/
+.slid-Text_blots{
+    position:relative;
+    width:100%;
+    height:100Vh;
+}
+.parentText_bolts{
+    /* right:0; */
+    position: absolute;
+    width:45%;
+    height:70vh;
+    text-align: center;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.icons_bolts{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    border: 1px solid rgb(175, 70, 70);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 .3em;
+    
+}
+.icons_bolts button{
+
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-color: transparent;
+    transition:1s;
+    -webkit-transition:1s;
+    -moz-transition:1s;
+    -ms-transition:1s;
+    -o-transition:1s;
+}
+
+h2{
+    position: absolute;
+    bottom:0;
+    padding:.5rem 0 1rem;
+    left:50%;
+    transform:translateX(-50%);
+    -webkit-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    -ms-transform:translateX(-50%);
+    -o-transform:translateX(-50%);
+    background-color: rgba(200,200,200,.7);
+    width: 100%;
+    height:fit-content;
+    transition: 1s;
+}
+.bolts{
+    position: absolute;
+    /* border:1px solid #facdef; */
+    height:15px;
+    width:100%;
+    bottom:3.5rem;
+    text-align: center;
+}
+.bolts i {
+    color:#c071ac;
+    padding: 0 .2em;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+.bolts .active{
+    color:#771e61;
+}
